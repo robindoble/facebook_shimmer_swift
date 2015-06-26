@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B41AFAC830C2BD3CCB1A0B3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B26A1265F737040D3154382 /* libPods.a */; };
+		93AFDFEA1A3282ED000EDF95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AFDFE91A3282ED000EDF95 /* AppDelegate.swift */; };
+		93AFDFEC1A3282ED000EDF95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AFDFEB1A3282ED000EDF95 /* ViewController.swift */; };
+		93AFDFEF1A3282ED000EDF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AFDFED1A3282ED000EDF95 /* Main.storyboard */; };
+		93AFDFF11A3282ED000EDF95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AFDFF01A3282ED000EDF95 /* Images.xcassets */; };
+		93AFDFF41A3282ED000EDF95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93AFDFF21A3282ED000EDF95 /* LaunchScreen.xib */; };
+		93AFE0001A3282EE000EDF95 /* SparkleClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AFDFFF1A3282EE000EDF95 /* SparkleClockTests.swift */; };
+		93CC4BFA1A352E350075FA20 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CC4BF91A352E350075FA20 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93AFDFFA1A3282EE000EDF95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93AFDFDC1A3282ED000EDF95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93AFDFE31A3282ED000EDF95;
+			remoteInfo = SparkleClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0659A2981B3DF3FC009854AE /* SparkleClock-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SparkleClock-Bridging-Header.h"; sourceTree = "<group>"; };
+		4DBF63C6A43C1B9DF54301A2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5B26A1265F737040D3154382 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6877BE5A2F938801DB320E85 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		93AFDFE41A3282ED000EDF95 /* SparkleClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkleClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AFDFE81A3282ED000EDF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93AFDFE91A3282ED000EDF95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93AFDFEB1A3282ED000EDF95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93AFDFEE1A3282ED000EDF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93AFDFF01A3282ED000EDF95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93AFDFF31A3282ED000EDF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		93AFDFF91A3282EE000EDF95 /* SparkleClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparkleClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AFDFFE1A3282EE000EDF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93AFDFFF1A3282EE000EDF95 /* SparkleClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkleClockTests.swift; sourceTree = "<group>"; };
+		93CC4BF91A352E350075FA20 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93AFDFE11A3282ED000EDF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CC4BFA1A352E350075FA20 /* QuartzCore.framework in Frameworks */,
+				3B41AFAC830C2BD3CCB1A0B3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AFDFF61A3282EE000EDF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD3EA3B663BCE67EE3E0058 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DBF63C6A43C1B9DF54301A2 /* Pods.debug.xcconfig */,
+				6877BE5A2F938801DB320E85 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93AFDFDB1A3282ED000EDF95 = {
+			isa = PBXGroup;
+			children = (
+				93AFDFE61A3282ED000EDF95 /* SparkleClock */,
+				93AFDFFC1A3282EE000EDF95 /* SparkleClockTests */,
+				93AFDFE51A3282ED000EDF95 /* Products */,
+				C44E2300840869FC3829EBF2 /* Frameworks */,
+				0DD3EA3B663BCE67EE3E0058 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		93AFDFE51A3282ED000EDF95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93AFDFE41A3282ED000EDF95 /* SparkleClock.app */,
+				93AFDFF91A3282EE000EDF95 /* SparkleClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93AFDFE61A3282ED000EDF95 /* SparkleClock */ = {
+			isa = PBXGroup;
+			children = (
+				93AFDFE91A3282ED000EDF95 /* AppDelegate.swift */,
+				93AFDFEB1A3282ED000EDF95 /* ViewController.swift */,
+				0659A2981B3DF3FC009854AE /* SparkleClock-Bridging-Header.h */,
+				93AFDFED1A3282ED000EDF95 /* Main.storyboard */,
+				93AFDFF01A3282ED000EDF95 /* Images.xcassets */,
+				93AFDFF21A3282ED000EDF95 /* LaunchScreen.xib */,
+				93AFDFE71A3282ED000EDF95 /* Supporting Files */,
+			);
+			path = SparkleClock;
+			sourceTree = "<group>";
+		};
+		93AFDFE71A3282ED000EDF95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93AFDFE81A3282ED000EDF95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93AFDFFC1A3282EE000EDF95 /* SparkleClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				93AFDFFF1A3282EE000EDF95 /* SparkleClockTests.swift */,
+				93AFDFFD1A3282EE000EDF95 /* Supporting Files */,
+			);
+			path = SparkleClockTests;
+			sourceTree = "<group>";
+		};
+		93AFDFFD1A3282EE000EDF95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93AFDFFE1A3282EE000EDF95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C44E2300840869FC3829EBF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93CC4BF91A352E350075FA20 /* QuartzCore.framework */,
+				5B26A1265F737040D3154382 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93AFDFE31A3282ED000EDF95 /* SparkleClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93AFE0031A3282EE000EDF95 /* Build configuration list for PBXNativeTarget "SparkleClock" */;
+			buildPhases = (
+				C41207F42C55EFA7442ADAB5 /* Check Pods Manifest.lock */,
+				93AFDFE01A3282ED000EDF95 /* Sources */,
+				93AFDFE11A3282ED000EDF95 /* Frameworks */,
+				93AFDFE21A3282ED000EDF95 /* Resources */,
+				917D7A6499DB4F0A41B20CB2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparkleClock;
+			productName = SparkleClock;
+			productReference = 93AFDFE41A3282ED000EDF95 /* SparkleClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93AFDFF81A3282EE000EDF95 /* SparkleClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93AFE0061A3282EE000EDF95 /* Build configuration list for PBXNativeTarget "SparkleClockTests" */;
+			buildPhases = (
+				93AFDFF51A3282EE000EDF95 /* Sources */,
+				93AFDFF61A3282EE000EDF95 /* Frameworks */,
+				93AFDFF71A3282EE000EDF95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93AFDFFB1A3282EE000EDF95 /* PBXTargetDependency */,
+			);
+			name = SparkleClockTests;
+			productName = SparkleClockTests;
+			productReference = 93AFDFF91A3282EE000EDF95 /* SparkleClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93AFDFDC1A3282ED000EDF95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Razeware;
+				TargetAttributes = {
+					93AFDFE31A3282ED000EDF95 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					93AFDFF81A3282EE000EDF95 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 93AFDFE31A3282ED000EDF95;
+					};
+				};
+			};
+			buildConfigurationList = 93AFDFDF1A3282ED000EDF95 /* Build configuration list for PBXProject "SparkleClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93AFDFDB1A3282ED000EDF95;
+			productRefGroup = 93AFDFE51A3282ED000EDF95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93AFDFE31A3282ED000EDF95 /* SparkleClock */,
+				93AFDFF81A3282EE000EDF95 /* SparkleClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93AFDFE21A3282ED000EDF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AFDFEF1A3282ED000EDF95 /* Main.storyboard in Resources */,
+				93AFDFF41A3282ED000EDF95 /* LaunchScreen.xib in Resources */,
+				93AFDFF11A3282ED000EDF95 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AFDFF71A3282EE000EDF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		917D7A6499DB4F0A41B20CB2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C41207F42C55EFA7442ADAB5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93AFDFE01A3282ED000EDF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AFDFEC1A3282ED000EDF95 /* ViewController.swift in Sources */,
+				93AFDFEA1A3282ED000EDF95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AFDFF51A3282EE000EDF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AFE0001A3282EE000EDF95 /* SparkleClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93AFDFFB1A3282EE000EDF95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93AFDFE31A3282ED000EDF95 /* SparkleClock */;
+			targetProxy = 93AFDFFA1A3282EE000EDF95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93AFDFED1A3282ED000EDF95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93AFDFEE1A3282ED000EDF95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93AFDFF21A3282ED000EDF95 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93AFDFF31A3282ED000EDF95 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93AFE0011A3282EE000EDF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93AFE0021A3282EE000EDF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93AFE0041A3282EE000EDF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DBF63C6A43C1B9DF54301A2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SparkleClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SparkleClock/SparkleClock-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93AFE0051A3282EE000EDF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6877BE5A2F938801DB320E85 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SparkleClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SparkleClock/SparkleClock-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		93AFE0071A3282EE000EDF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SparkleClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SparkleClock.app/SparkleClock";
+			};
+			name = Debug;
+		};
+		93AFE0081A3282EE000EDF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SparkleClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SparkleClock.app/SparkleClock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93AFDFDF1A3282ED000EDF95 /* Build configuration list for PBXProject "SparkleClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AFE0011A3282EE000EDF95 /* Debug */,
+				93AFE0021A3282EE000EDF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93AFE0031A3282EE000EDF95 /* Build configuration list for PBXNativeTarget "SparkleClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AFE0041A3282EE000EDF95 /* Debug */,
+				93AFE0051A3282EE000EDF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93AFE0061A3282EE000EDF95 /* Build configuration list for PBXNativeTarget "SparkleClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AFE0071A3282EE000EDF95 /* Debug */,
+				93AFE0081A3282EE000EDF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93AFDFDC1A3282ED000EDF95 /* Project object */;
+}

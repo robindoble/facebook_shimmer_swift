@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SparkleClock" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rAi-1F-b3C" customClass="FBShimmeringView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:00:01 AM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqk-II-y4F">
+                                        <rect key="frame" x="8" y="8" width="584" height="584"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="100"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="pqk-II-y4F" firstAttribute="top" secondItem="rAi-1F-b3C" secondAttribute="top" constant="8" id="9Ft-bR-UFA"/>
+                                    <constraint firstAttribute="bottom" secondItem="pqk-II-y4F" secondAttribute="bottom" constant="8" id="CN4-GR-mwf"/>
+                                    <constraint firstAttribute="centerY" secondItem="pqk-II-y4F" secondAttribute="centerY" id="ISC-mC-oEl"/>
+                                    <constraint firstAttribute="trailing" secondItem="pqk-II-y4F" secondAttribute="trailing" constant="8" id="KjS-Nx-6yY"/>
+                                    <constraint firstAttribute="centerX" secondItem="pqk-II-y4F" secondAttribute="centerX" id="ia4-9v-x9F"/>
+                                    <constraint firstItem="pqk-II-y4F" firstAttribute="leading" secondItem="rAi-1F-b3C" secondAttribute="leading" constant="8" id="il1-79-Z8x"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="rAi-1F-b3C" secondAttribute="trailing" constant="-16" id="Uyj-Dg-t50"/>
+                            <constraint firstItem="rAi-1F-b3C" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="XPa-AO-zqa"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rAi-1F-b3C" secondAttribute="bottom" id="cvy-uS-aDq"/>
+                            <constraint firstItem="rAi-1F-b3C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="ewu-3X-L5O"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="1rF-xR-kYQ" appends="YES" id="gfe-1G-b9J"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="clockLabel" destination="pqk-II-y4F" id="Hd0-se-k9a"/>
+                        <outlet property="shimmeringView" destination="rAi-1F-b3C" id="aT7-na-Yfx"/>
+                        <outlet property="tapGestureRecognizer" destination="1rF-xR-kYQ" id="DyY-NX-CxF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="1rF-xR-kYQ">
+                    <connections>
+                        <action selector="didTapView" destination="BYZ-38-t0r" id="nUX-Js-A7W"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="305.5" y="527"/>
+        </scene>
+    </scenes>
+</document>
